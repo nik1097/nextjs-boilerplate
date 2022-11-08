@@ -18,7 +18,6 @@ export default function Home() {
 
         <p className={styles.description}>
           Page owned by nsuresh {' '}
-          <code className={styles.code}>pages/index.js</code>
         </p>
 
         <div className={styles.grid}>
