@@ -62,8 +62,7 @@ function makeGame(div) {
             // reset the selection state to unselected
             selected = null;
             const [movedFrom, movedTo] = Object.entries(game.aiMove())[0];
-            //console.log(gameState);
-            //console.log(gameState);
+
             gameState = game.exportJson();
             // update the text by clearing out the old square
             document.getElementById(movedFrom).innerText = "";
